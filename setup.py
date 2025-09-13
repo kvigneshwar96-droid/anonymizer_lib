@@ -16,7 +16,7 @@ class CustomInstall(install):
 
 setup(
     name="anonymizer_lib",
-    version="0.1.1",
+    version="0.1.3",
     author="Vigneshwar K",
     author_email="k.vigneshwar96@gmail.com",
     description="A simple library for anonymizing sensitive words",

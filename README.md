@@ -1,4 +1,20 @@
-Sections Explained
+Anonymizer Lib
+
+A Python library to mask sensitive words and values using configurable JSON.
+
+🚀 Installation & First Use
+# 1. Uninstall old version if exists
+pip uninstall -y anonymizer_lib
+
+# 2. Install your local package
+pip install anonymizer-lib
+
+# 3. Trigger JSON creation (runs once per project root)
+python -m anonymizer_lib
+
+
+This will create a critical_words.json in your project root.
+You can then update this JSON with your mappings and groups.
 
 ⚠️ Important Notes
 
@@ -8,7 +24,7 @@ Inside groups, the key must always be "items".
 
 These keywords are reserved and required by the library to function correctly.
 
-
+📝 Sections Explained
 mapping
 
 Use this for direct word-to-placeholder replacements.
