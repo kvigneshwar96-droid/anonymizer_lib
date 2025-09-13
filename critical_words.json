@@ -1,0 +1,14 @@
+{
+  "mapping": {
+    "SensitiveWord": "<AliasPlaceholder>"
+  },
+  "groups": {
+    "Category1": {
+      "items": [
+        "ValueExample1",
+        "ValueExample2"
+      ],
+      "placeholder": "<Category1Placeholder>"
+    }
+  }
+}
